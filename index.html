@@ -16,14 +16,38 @@
       font-family: 'Bangers', cursive;
       box-shadow: 5px 5px 5px grey;
   }
+  .navbar {
+      background-color: #f4511e; /* Orange */
+      color: #ffffff;
+      font-family: 'Bangers', cursive;
+      box-shadow: 5px 5px 5px grey;   
+    }
 </style>
 </head>
 <body>
+      <nav class="navbar navbar-default navbar-static-top hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">CPS 181 Intro to Computing</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="http://coursecatalog.syr.edu/preview_course_nopop.php?catoid=3&coid=9328">Course Description</a></li>
+          </ul>
+        </div>
+        </div>
+    </nav> 
     <div class="jumbotron text-center hidden-xs">
       <h1>&#128514; CPS 181 Intro to Computing</h1>
       <p>Syracuse University. Spring 2017. shconley@syr.edu.</p> 
     </div>
-      <blockquote>
+      <blockquote class="hidden-lg">
       Organization of computers&#44; elementary programming&#44; and problem solving&#46; Applications in such areas as calculation and visualization&#44; communication&#44; databases&#44; graphics&#44; and artificial intelligence&#46; Origins of the modern digital computer&#44; future trends&#44; social impact&#44; abuses.
       <footer>Course Description</footer></blockquote> 
        <h2>Schedule (Tentative)</h2>
